@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problems>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/java/com/evc/scada/common/ParallelTask.java</file>
+    <line>55</line>
+    <module>scada-meiquangong</module>
+    <package>com.evc.scada.common</package>
+    <entry_point TYPE="method" FQNAME="com.evc.scada.common.ParallelTask java.util.List&lt;T&gt; doExecute(com.evc.scada.common.function.Consumer&lt;java.lang.Runnable&gt; consumer)" />
+    <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+    <description>Hardcoded string literal: "并发任务异常："</description>
+    <highlighted_element>"并发任务异常："</highlighted_element>
+    <language>JAVA</language>
+    <offset>18</offset>
+    <length>9</length>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/java/com/evc/scada/util/StringUtils.java</file>
+    <line>42</line>
+    <module>scada-meiquangong</module>
+    <package>com.evc.scada.util</package>
+    <entry_point TYPE="method" FQNAME="com.evc.scada.util.StringUtils boolean isEmpty(java.lang.String str)" />
+    <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+    <description>Hardcoded string literal: "输入参数不能为空"</description>
+    <highlighted_element>"输入参数不能为空"</highlighted_element>
+    <language>JAVA</language>
+    <offset>25</offset>
+    <length>8</length>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/java/com/evc/scada/config/DatabaseConfig.java</file>
+    <line>78</line>
+    <module>scada-meiquangong</module>
+    <package>com.evc.scada.config</package>
+    <entry_point TYPE="method" FQNAME="com.evc.scada.config.DatabaseConfig void initDatabase()" />
+    <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+    <description>Hardcoded string literal: "Database connection established"</description>
+    <highlighted_element>"Database connection established"</highlighted_element>
+    <language>JAVA</language>
+    <offset>12</offset>
+    <length>30</length>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/java/com/evc/scada/service/LogService.java</file>
+    <line>156</line>
+    <module>scada-meiquangong</module>
+    <package>com.evc.scada.service</package>
+    <entry_point TYPE="method" FQNAME="com.evc.scada.service.LogService void logError(java.lang.String message)" />
+    <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+    <description>Hardcoded string literal: "错误日志: %s"</description>
+    <highlighted_element>"错误日志: %s"</highlighted_element>
+    <language>JAVA</language>
+    <offset>35</offset>
+    <length>9</length>
+  </problem>
+  <problem>
+    <file>file://$PROJECT_DIR$/src/main/java/com/evc/scada/model/User.java</file>
+    <line>89</line>
+    <module>scada-meiquangong</module>
+    <package>com.evc.scada.model</package>
+    <entry_point TYPE="method" FQNAME="com.evc.scada.model.User java.lang.String toString()" />
+    <problem_class id="HardCodedStringLiteral" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Hardcoded strings</problem_class>
+    <description>Hardcoded string literal: "用户信息: {name: %s, id: %d}"</description>
+    <highlighted_element>"用户信息: {name: %s, id: %d}"</highlighted_element>
+    <language>JAVA</language>
+    <offset>22</offset>
+    <length>23</length>
+  </problem>
+</problems>
